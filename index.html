@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nivro Corporation - Design. Develop. Dominate.</title>
+    <meta name="description" content="Creative tech startup specializing in website design, development, graphic design, and digital marketing.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header" id="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <img src="ChatGPT Image May 23, 2025, 01_08_25 PM.png" alt="Nivro Corporation" class="logo-img">
+                    <span class="logo-text">NIVRO</span>
+                </div>
+                
+                <nav class="nav" id="nav">
+                    <ul class="nav-list">
+                        <li><a href="#home" class="nav-link">Home</a></li>
+                        <li><a href="#about" class="nav-link">About</a></li>
+                        <li><a href="#services" class="nav-link">Services</a></li>
+                        <li><a href="#portfolio" class="nav-link">Portfolio</a></li>
+                        <li><a href="#team" class="nav-link">Team</a></li>
+                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+                
+                <button class="cta-btn" onclick="scrollToSection('contact')">Get Quote</button>
+                <button class="mobile-toggle" id="mobile-toggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">
+                    Design. <span class="accent">Develop.</span> <span class="primary">Dominate.</span>
+                </h1>
+                <p class="hero-subtitle">We build brands, craft experiences, and drive results.</p>
+                
+                <div class="hero-buttons">
+                    <button class="btn btn-primary" onclick="scrollToSection('contact')">
+                        Get a Quote <i class="fas fa-arrow-right"></i>
+                    </button>
+                    <button class="btn btn-outline" onclick="scrollToSection('portfolio')">
+                        <i class="fas fa-play"></i> See Our Work
+                    </button>
+                </div>
+                
+                <div class="hero-visual">
+                    <div class="creative-grid">
+                        <div class="grid-item" style="animation-delay: 0s;"></div>
+                        <div class="grid-item" style="animation-delay: 0.2s;"></div>
+                        <div class="grid-item" style="animation-delay: 0.4s;"></div>
+                        <div class="grid-item" style="animation-delay: 0.6s;"></div>
+                        <div class="grid-item" style="animation-delay: 0.8s;"></div>
+                        <div class="grid-item" style="animation-delay: 1s;"></div>
+                        <div class="grid-item" style="animation-delay: 1.2s;"></div>
+                        <div class="grid-item" style="animation-delay: 1.4s;"></div>
+                        <div class="grid-item" style="animation-delay: 1.6s;"></div>
+                    </div>
+                    <div class="hero-overlay">
+                        <div class="code-symbol">&lt;/&gt;</div>
+                        <p>Creative Technology</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About <span class="accent">Nivro</span></h2>
+                <p>At Nivro Corporation, we believe in the power of exceptional design and smart technology to transform businesses. Our mission is to empower companies through stunning visual experiences and strategic digital marketing that drives real results.</p>
+            </div>
+            
+            <div class="about-features">
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-bullseye"></i>
+                    </div>
+                    <h3>Our Vision</h3>
+                    <p>To be the leading creative technology partner that helps businesses stand out in the digital landscape.</p>
+                </div>
+                
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Customer-First</h3>
+                    <p>Every project starts with understanding your unique needs and crafting solutions that exceed expectations.</p>
+                </div>
+                
+                <div class="feature">
+                    <div class="feature-icon">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <h3>Innovation</h3>
+                    <p>We stay ahead of trends and technologies to deliver cutting-edge solutions that give you a competitive advantage.</p>
+                </div>
+            </div>
+            
+            <div class="about-stats">
+                <div class="stats-content">
+                    <h3>Why Choose Nivro?</h3>
+                    <ul>
+                        <li><span class="bullet"></span>5+ years of industry experience</li>
+                        <li><span class="bullet"></span>100+ successful projects delivered</li>
+                        <li><span class="bullet"></span>Expert team of designers and developers</li>
+                        <li><span class="bullet"></span>24/7 support and maintenance</li>
+                    </ul>
+                </div>
+                <div class="stats-visual">
+                    <div class="stat-circle">
+                        <div class="stat-number">98%</div>
+                        <div class="stat-label">Client Satisfaction</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services" id="services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our <span class="accent">Services</span></h2>
+                <p>From concept to launch, we provide comprehensive digital solutions that help your business thrive in the modern marketplace.</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-desktop"></i>
+                    </div>
+                    <h3>Website Design & Development</h3>
+                    <p>Responsive, e-commerce, and CMS solutions that convert visitors into customers.</p>
+                    <ul class="service-features">
+                        <li>Responsive Design</li>
+                        <li>E-commerce Solutions</li>
+                        <li>CMS Integration</li>
+                        <li>Performance Optimization</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-palette"></i>
+                    </div>
+                    <h3>Graphic Design</h3>
+                    <p>Logos, banners, and complete branding kits that make your brand unforgettable.</p>
+                    <ul class="service-features">
+                        <li>Logo Design</li>
+                        <li>Brand Identity</li>
+                        <li>Print Design</li>
+                        <li>Digital Assets</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Digital Marketing</h3>
+                    <p>SEO, social media marketing, and Google Ads that drive traffic and sales.</p>
+                    <ul class="service-features">
+                        <li>SEO Optimization</li>
+                        <li>Social Media Marketing</li>
+                        <li>Google Ads</li>
+                        <li>Analytics & Reporting</li>
+                    </ul>
+                </div>
+                
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-pen-nib"></i>
+                    </div>
+                    <h3>Content Creation & Strategy</h3>
+                    <p>Compelling content that engages your audience and builds brand authority.</p>
+                    <ul class="service-features">
+                        <li>Content Strategy</li>
+                        <li>Copywriting</li>
+                        <li>Video Production</li>
+                        <li>Social Media Content</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our <span class="accent">Process</span></h2>
+                <p>A proven 4-step methodology that ensures every project delivers exceptional results and exceeds expectations.</p>
+            </div>
+            
+            <div class="process-steps">
+                <div class="process-line"></div>
+                
+                <div class="process-step">
+                    <div class="step-circle">
+                        <i class="fas fa-search"></i>
+                    </div>
+                    <div class="step-number">01</div>
+                    <h3>Understand Your Brand</h3>
+                    <p>We dive deep into your business goals, target audience, and brand identity to create a solid foundation.</p>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-circle">
+                        <i class="fas fa-lightbulb"></i>
+                    </div>
+                    <div class="step-number">02</div>
+                    <h3>Design the Solution</h3>
+                    <p>Our creative team crafts innovative designs and strategies tailored to your specific needs and objectives.</p>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-circle">
+                        <i class="fas fa-code"></i>
+                    </div>
+                    <div class="step-number">03</div>
+                    <h3>Build and Test</h3>
+                    <p>We develop your solution using cutting-edge technology and rigorously test every aspect for perfection.</p>
+                </div>
+                
+                <div class="process-step">
+                    <div class="step-circle">
+                        <i class="fas fa-rocket"></i>
+                    </div>
+                    <div class="step-number">04</div>
+                    <h3>Launch and Grow</h3>
+                    <p>We launch your project and provide ongoing support to ensure continued success and growth.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section class="portfolio" id="portfolio">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our <span class="accent">Portfolio</span></h2>
+                <p>Explore our recent works and see how we've helped businesses transform their digital presence and achieve remarkable results.</p>
+            </div>
+            
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=400&h=300&fit=crop" alt="TechFlow E-commerce">
+                        <div class="portfolio-overlay">
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-category">Website Development</div>
+                        <h3>TechFlow E-commerce</h3>
+                        <p class="portfolio-client">TechFlow Inc.</p>
+                        <p>Modern e-commerce platform with advanced filtering and payment integration.</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1558655146-d09347e92766?w=400&h=300&fit=crop" alt="GreenLeaf Branding">
+                        <div class="portfolio-overlay">
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-category">Brand Identity</div>
+                        <h3>GreenLeaf Branding</h3>
+                        <p class="portfolio-client">GreenLeaf Organics</p>
+                        <p>Complete brand identity package including logo, colors, and marketing materials.</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1551650975-87deedd944c3?w=400&h=300&fit=crop" alt="FinanceApp UI/UX">
+                        <div class="portfolio-overlay">
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-category">Mobile App Design</div>
+                        <h3>FinanceApp UI/UX</h3>
+                        <p class="portfolio-client">FinanceApp</p>
+                        <p>Intuitive mobile app design for personal finance management.</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=400&h=300&fit=crop" alt="RestaurantHub Website">
+                        <div class="portfolio-overlay">
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-category">Web Development</div>
+                        <h3>RestaurantHub Website</h3>
+                        <p class="portfolio-client">RestaurantHub</p>
+                        <p>Restaurant management platform with online ordering and reservations.</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=400&h=300&fit=crop" alt="FitLife Social Campaign">
+                        <div class="portfolio-overlay">
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-category">Digital Marketing</div>
+                        <h3>FitLife Social Campaign</h3>
+                        <p class="portfolio-client">FitLife Gym</p>
+                        <p>Social media campaign that increased membership by 150%.</p>
+                    </div>
+                </div>
+                
+                <div class="portfolio-item">
+                    <div class="portfolio-image">
+                        <img src="https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=400&h=300&fit=crop" alt="ArtStudio Portfolio">
+                        <div class="portfolio-overlay">
+                            <i class="fas fa-external-link-alt"></i>
+                        </div>
+                    </div>
+                    <div class="portfolio-content">
+                        <div class="portfolio-category">Portfolio Website</div>
+                        <h3>ArtStudio Portfolio</h3>
+                        <p class="portfolio-client">ArtStudio Creative</p>
+                        <p>Elegant portfolio website showcasing artistic works and exhibitions.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2>Client <span class="accent">Testimonials</span></h2>
+                <p>Don't just take our word for it. Here's what our satisfied clients have to say about their experience working with Nivro.</p>
+            </div>
+            
+            <div class="testimonials-grid">
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Nivro transformed our online presence completely. Their attention to detail and creative approach exceeded our expectations. Our sales increased by 200% within 3 months!"</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=80&h=80&fit=crop&crop=face" alt="Sarah Johnson">
+                        <div class="author-info">
+                            <h4>Sarah Johnson</h4>
+                            <p>CEO, TechFlow Inc.</p>
+                            <span class="company">TechFlow</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"The branding package Nivro created for us was absolutely stunning. They captured our vision perfectly and delivered a cohesive brand identity that resonates with our customers."</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=80&h=80&fit=crop&crop=face" alt="Michael Chen">
+                        <div class="author-info">
+                            <h4>Michael Chen</h4>
+                            <p>Marketing Director</p>
+                            <span class="company">GreenLeaf Organics</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="testimonial-card">
+                    <div class="testimonial-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <p class="testimonial-text">"Working with Nivro was a game-changer for our business. Their digital marketing strategies helped us reach new audiences and grow our membership significantly."</p>
+                    <div class="testimonial-author">
+                        <img src="https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&h=80&fit=crop&crop=face" alt="Emily Rodriguez">
+                        <div class="author-info">
+                            <h4>Emily Rodriguez</h4>
+                            <p>Founder, FitLife Gym</p>
+                            <span class="company">FitLife</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team" id="team">
+        <div class="container">
+            <div class="section-header">
+                <h2>Meet Our <span class="accent">Team</span></h2>
+                <p>Our talented team of designers, developers, and strategists work together to bring your vision to life and drive your business forward.</p>
+            </div>
+            
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=300&h=300&fit=crop&crop=face" alt="Alex Rivera">
+                        <div class="member-overlay">
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-dribbble"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Alex Rivera</h3>
+                        <p class="member-role">Creative Director & Founder</p>
+                        <p class="member-bio">10+ years in creative design with expertise in brand strategy and visual identity.</p>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="https://images.unsplash.com/photo-1519345182560-3f2917c472ef?w=300&h=300&fit=crop&crop=face" alt="Jordan Kim">
+                        <div class="member-overlay">
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-dribbble"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Jordan Kim</h3>
+                        <p class="member-role">Lead Developer</p>
+                        <p class="member-bio">Full-stack developer specializing in modern web technologies and e-commerce solutions.</p>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="https://images.unsplash.com/photo-1494790108755-2616b612b786?w=300&h=300&fit=crop&crop=face" alt="Sam Taylor">
+                        <div class="member-overlay">
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-dribbble"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Sam Taylor</h3>
+                        <p class="member-role">UI/UX Designer</p>
+                        <p class="member-bio">User experience expert focused on creating intuitive and engaging digital interfaces.</p>
+                    </div>
+                </div>
+                
+                <div class="team-member">
+                    <div class="member-image">
+                        <img src="https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=300&h=300&fit=crop&crop=face" alt="Casey Morgan">
+                        <div class="member-overlay">
+                            <div class="social-links">
+                                <a href="#"><i class="fab fa-linkedin"></i></a>
+                                <a href="#"><i class="fab fa-twitter"></i></a>
+                                <a href="#"><i class="fab fa-dribbble"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="member-info">
+                        <h3>Casey Morgan</h3>
+                        <p class="member-role">SEO Specialist</p>
+                        <p class="member-bio">Digital marketing strategist with proven track record in SEO and content marketing.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In <span class="accent">Touch</span></h2>
+                <p>Ready to start your next project? Let's discuss how we can help transform your business and achieve your goals.</p>
+            </div>
+            
+            <div class="contact-content">
+                <div class="contact-form-wrapper">
+                    <h3>Send us a message</h3>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Email Address</label>
+                                <input type="email" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="company">Company Name</label>
+                            <input type="text" id="company" name="company">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">
+                            Send Message <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+                
+                <div class="contact-info">
+                    <h3>Contact Information</h3>
+                    <div class="contact-details">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Email</h4>
+                                <p>nivrocorp@gmail.com</p>
+                                <p>projects@nivrocorp.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Phone</h4>
+                                <p>+1 (555) 123-4567</p>
+                                <p>+1 (555) 987-6543</p>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-text">
+                                <h4>Office</h4>
+                                <p>123 Creative Street</p>
+                                <p>Tech District, CA 90210</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-section">
+                        <h4>Follow Us</h4>
+                        <div class="social-links">
+                            <a href="https://www.linkedin.com/in/nivro-corporation-hs778-?trk=contact-info" style="color: #0077B5;"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://www.instagram.com/nivrocorporation?igsh=MXNsdW9kdnh3ejB6Nw==" style="color: #E1306C;"><i class="fab fa-instagram"></i></a>
+                            <a href="https://www.facebook.com/share/1DcV3rmuFG/?mibextid=wwXIfr" style="color: #1877F2;"><i class="fab fa-facebook"></i></a>
+                            <a href="https://x.com/nivrocorp?s=11" style="color: #000000;"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <img src="ChatGPT Image May 23, 2025, 01_08_25 PM.png" alt="Nivro Corporation" class="footer-logo-img">
+                        <span class="footer-logo-text">NIVRO</span>
+                    </div>
+                    <p class="footer-description">Empowering businesses through exceptional design, innovative development, and strategic digital marketing solutions.</p>
+                    <div class="footer-social">
+                        <a href="https://www.linkedin.com/in/nivro-corporation-hs778-?trk=contact-info" style="color: #0077B5;"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://www.instagram.com/nivrocorporation?igsh=MXNsdW9kdnh3ejB6Nw==" style="color: #E1306C;"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.facebook.com/share/1DcV3rmuFG/?mibextid=wwXIfr" style="color: #1877F2;"><i class="fab fa-facebook"></i></a>
+                        <a href="https://x.com/nivrocorp?s=11" style="color: #000000;"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"></path></svg></a>
+                    </div>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Services</h4>
+                    <ul>
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Graphic Design</a></li>
+                        <li><a href="#">Digital Marketing</a></li>
+                        <li><a href="#">SEO Services</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-section">
+                    <h4>Company</h4>
+                    <ul>
+                        <li><a href="#about">About Us</a></li>
+                        <li><a href="#team">Our Team</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                        <li><a href="#">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2024 Nivro Corporation. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/1234567890" class="whatsapp-float" target="_blank" rel="noopener noreferrer">
+        <i class="fab fa-whatsapp"></i>
+        <span class="whatsapp-tooltip">Chat with us!</span>
+    </a>
+</body>
+</html>
